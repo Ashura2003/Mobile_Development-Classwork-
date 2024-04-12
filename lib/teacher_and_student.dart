@@ -31,7 +31,7 @@ class Student {
   final String? stdFname;
   final String? stdLname;
   //Relationship
-  List<Teacher>? lstTeacher;
+  final List<Teacher>? lstTeacher;
 
   Country? country;
   Student(
